@@ -1,0 +1,29 @@
+{
+  "name": "comeon",
+  "version": "1.0.0",
+  "description": "Cypress project",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^8.5.0",
+    "cypress-xpath": "^1.6.2",
+    "getos": "^3.1.1"
+  },
+  "author": "ozcan.ilhan",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.5.0",
+    "cypress-mochawesome-reporter": "^2.3.0"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test:desktop": "cypress run --spec 'cypress/integration/comeonDesk.spec.js'",
+    "test:mobile": "cypress run --spec 'cypress/integration/comeonMobile.spec.js'"
+  },
+  "keywords": [
+    "e2e",
+    "test",
+    "cypress",
+    "automation",
+    "frameworks"
+  ]
+}

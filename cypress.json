@@ -1,0 +1,21 @@
+{
+  "chromeWebSecurity": false,
+  "PageLoadTimeout" : 60000,
+  "responseTimeout" : 20000,
+  "videoUploadOnPasses": false,
+  "viewportWidth": 1280,
+  "viewportHeight": 720,
+  "pluginsFile": "cypress/plugins/index.js",
+  "downloadPath": "cypress/downloads/",
+  "screenshotOnRunFailure": false,
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "charts": true,
+    "reportPageTitle": "My Test Suite",
+    "embeddedScreenshots": true,
+    "inlineAssets": true
+  },
+  "video": false
+}
+
